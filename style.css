@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 1500px;
+    width: 80%;
+    margin: auto;
+    border: 1px solid red;
+}
+.text>p{
+    color: blue;
+}
+.p_imp{
+    margin-top: 50px;
+    color: red !important;
+}
+#lorem{
+    color: blue;
+}
+.box_1{
+    height: 200px;
+    width: 200px;
+
+    transition: all 1s linear 0.5s;
+    /* transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-property:all;
+    transition-timing-function: linear; */
+    background-color: green;
+
+}
+.box_1:hover{
+    height: 400px;
+    width: 900px;
+    background-color: red;
+
+}
+.box_2{
+    height: 500px;
+    width: 400px;
+    flex-wrap: wrap;
+    background-color: red;
+    overflow: scroll;
+    /* scroll, auto , hidden */
+}
